@@ -1,0 +1,149 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --primary-text-color: #434455;
+  --primary-dark-color: #2e2f42;
+  --primary-accent-color: #e7e9fc;
+  --primary-white-color: #ffffff;
+  --light-mode-background-color: #f4f4fd;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.071;
+}
+
+h2 {
+  color: var(--primary-dark-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.111;
+}
+
+h3 {
+  color: var(--primary-dark-color);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+.logo-top {
+  font-family: var(--secondary-font);
+  color: var(--primary-dark-color);
+  font-size: 18px;
+  line-height: 1.166;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+}
+
+.footer {
+  color: var(--light-mode-background-color);
+}
+
+.logo-footer {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  line-height: 1.166;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+}
+
+.logo-part {
+  color: var(--primary-brand-color);
+}
+
+.link:hover,
+.link:active,
+.link:focus {
+  color: var(--primary-white-color);
+}
+
+.nav-bar {
+  border-bottom: 1px solid var(--primary-accent-color);
+  color: var(--primary-dark-color);
+}
+
+.contacts {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero {
+  background-color: var(--primary-dark-color);
+}
+
+.hero h1 {
+  color: var(--primary-white-color);
+  text-align: center;
+}
+
+.hero h1 {
+  color: var(--primary-white-color);
+  text-align: center;
+}
+
+.hero .btn {
+  color: var(--primary-white-color);
+  background-color: var(--primary-brand-color);
+  font-weight: 500;
+  border: none;
+}
+
+.hero .btn:hover,
+.hero .btn:active,
+.hero .btn:focus {
+  color: var(--pressed-state-color);
+  background-color: var(--primary-white-color);
+}
+
+.btn {
+  color: var(--primary-brand-color);
+  background-color: var(--light-mode-background-color);
+  font-size: 16px;
+  font-weight: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: 1px solid var(--primary-accent-color);
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--pressed-state-color);
+}
+
+.footer {
+  background-color: var(--primary-dark-color);
+}
