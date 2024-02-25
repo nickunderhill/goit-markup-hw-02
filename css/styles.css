@@ -85,7 +85,7 @@ a:active {
 .link:hover,
 .link:active,
 .link:focus {
-  color: var(--primary-white-color);
+  color: var(--pressed-state-color)
 }
 
 .nav-bar {
