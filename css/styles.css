@@ -89,6 +89,7 @@ a:active {
 }
 
 .nav-bar {
+  font-weight: 500;
   border-bottom: 1px solid var(--primary-accent-color);
   color: var(--primary-dark-color);
 }
